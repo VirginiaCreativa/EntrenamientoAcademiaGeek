@@ -1,7 +1,5 @@
 # Módulo 0 Prework: Buenas prácticas y Entorno de desarrollo.
 
-¡Bienvenido al Módulo 0!
-
 En este primer curso te mostraremos cómo configurar un entorno de trabajo y usar las herramientas necesarias para que trabajes cómodamente y de acuerdo a tus necesidades.
 
 Aprenderás a instalar y a usar Visual Studio Code, el IDE más popular en la actualidad para desarrollar aplicaciones.
