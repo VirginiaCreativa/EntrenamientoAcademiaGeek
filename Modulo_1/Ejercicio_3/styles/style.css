@@ -8,3 +8,23 @@ h1, h2, h3, h4, p, ul, li, a {
 img {
   border: 6px solid #DFF6FF
 }
+nav {
+  display: block;
+  height: 43px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+ display: inline-block;
+  margin: 14px 10px 14px 0;
+  list-style: none;
+  float: left;
+}
+[href] {
+  background-color: #fff;
+  padding: 6px 10px;
+  color: #2D31FA;
+  text-decoration: none;
+}
