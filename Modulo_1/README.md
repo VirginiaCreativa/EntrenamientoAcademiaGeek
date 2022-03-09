@@ -52,3 +52,10 @@ HTML es un lenguaje de marcado que usa una sintaxis o notación especial para de
 
 - :notebook: Sesión 11 Bootstrap 
 :tv: <a href="https://www.youtube.com/watch?v=sDinMJeGciQ&list=PLCJVwfWFCViuSiVMDwPVP0wVlLsr0ymLH&index=26&ab_channel=AgileInnova" target="_blank">Bootstrap</a>
+
+
+# Entregas Resto
+
+- Ejercicio 1:  (https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Ejercicio_1)
+- Ejercicio 2:  (https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Ejercicio_2)
+- Ejercicio 3:  (https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Ejercicio_3)
