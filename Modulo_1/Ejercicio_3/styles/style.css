@@ -1,0 +1,10 @@
+body {
+  background-color: #2D31FA;
+}
+h1, h2, h3, h4, p, ul, li, a {
+  color: #fff;
+}
+
+img {
+  border: 6px solid #DFF6FF
+}
