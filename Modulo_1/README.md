@@ -7,3 +7,4 @@ HTML es un lenguaje de marcado que usa una sintaxis o notación especial para de
 - Ejercicio 1:  https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Ejercicio_1
 - Ejercicio 2:  https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Ejercicio_2
 - Ejercicio 3:  https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Ejercicio_3
+- Tarea 1: https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/Tarea_1

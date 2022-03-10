@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h5,
+  {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+ display: flex;
+justify-content: center;
+}
+
+.logo {
+  padding: 10px;
+  border: 1px dashed gray;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.logo img,
+.logo h1 {
+  float: left;
+}
+
+.logo h1 {
+  margin: 0;
+  padding: 0;
+}
