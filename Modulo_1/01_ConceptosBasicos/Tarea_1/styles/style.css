@@ -81,10 +81,6 @@ footer {
   border-top: 4px dotted #9d5353;
 }
 
-footer div {
-  text-align: spa;
-}
-
 footer .BoxSocial {
   display: flex;
   align-items: center;

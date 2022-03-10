@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: mediumpurple;
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+p,
+li,
+a {
+  color: rebeccapurple;
+}
+p {
+  line-height: 25px;
+}
+header {
+  background-color: rebeccapurple;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  color: #fff;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+}
+header h1 {
+  text-align: center;
+}
+#wrapper {
+  width: 75vw;
+  margin: 0 auto;
+}
+section {
+  display: flex;
+  gap: 40px;
+}
+aside {
+  padding: 20px;
+  background-color: rgb(81, 52, 109);
+}
+aside ul {
+  padding-left: 6px;
+}
+aside ul li {
+  margin-bottom: 10px;
+  color: #fff;
+}
+aside ul li a {
+  color: #fff;
+}
+
+.BoxAnuncio {
+  border: 1px solid rgb(187, 187, 187);
+  padding: 20px;
+}
+.
+header h1 {
+  text-align: center;
+}
+#wrapper {
+  width: 75vw;
+  margin: 0 auto;
+}
+section {
+  display: flex;
+}
+
+.BoxAnuncio ol li {
+  margin-bottom: 15px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 4px dotted rgb(235, 235, 235);
+  font-size: 12px;
+}
+
+footer .BoxSocial {
+  display: flex;
+}
+
+footer .BoxSocial a {
+  color: #2D31FA;
+  margin-left: 10px;
+}
