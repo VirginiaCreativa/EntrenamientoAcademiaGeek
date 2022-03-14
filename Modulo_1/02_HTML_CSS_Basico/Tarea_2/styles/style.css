@@ -113,18 +113,20 @@ header .BackgroundBlack {
 #BoxContent .container .AsideInfo {
   width: 35%;
 }
-
+#BoxContent h2, #BoxContent p {
+  margin-bottom: 20px;
+}
 #BoxContent .BoxInfo h2 {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-#BoxContent .BoxInfo h2 > span {
+#BoxContent h2 > span {
   color: #65D269;
 }
 #BoxContent .BoxInfo .images  {
   display: flex;
   gap: 10px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 #BoxContent .BoxInfo .images img {
   width: 100%;
@@ -141,10 +143,50 @@ header .BackgroundBlack {
 #BoxContent .AsideInfo table {
    border-collapse: collapse; 
 }
+#BoxContent .AsideInfo table .tg-v0mg {
+   color: #2F64A3;
+   font-weight: 600;
+}
 #BoxContent .AsideInfo table tbody tr {
   height: 35px;
   border-bottom: 1px solid rgb(199, 199, 199);
 }
 #BoxContent .AsideInfo table tbody td {
   padding: 10px 0;
+}
+.title h2 {
+  position: relative;
+}
+.title h2::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: block;
+  width: 85%;
+  height: 4px;
+  background-color: #F7F373;
+}
+footer {
+  margin-top: 40px;
+  padding: 40px 0;
+  background-color: rgb(48, 48, 48);
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+footer .BoxSocial {
+  display: flex;
+}
+
+footer .BoxSocial a {
+  color: #70bfff;
+  margin-left: 10px;
+}
+footer p {
+  color: #fff;
 }
