@@ -33,3 +33,53 @@ a {
   font-weight: 300;
   color: #312F44;
 }
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+  height: 360px;
+  width: 100%;
+}
+header img {
+  position: absolute;
+  width: 100%;
+  top: -80%;
+  left: 0;
+  z-index: -2;
+}
+header h1, header p {
+  color: #fff;
+  z-index: 1;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+header h1::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 45%;
+  background-color: rgb(212, 212, 212);
+  text-align: center;
+  margin: 0 auto;
+}
+
+header p {
+  font-style: italic;
+}
+header .BackgroundBlack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 360px;
+  width: 100%;
+}
