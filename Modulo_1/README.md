@@ -22,3 +22,4 @@ Hemos visto que las etiquetas HTML nos permiten estructurar nuestra página web 
 ## Entregas Resto
 
 - Tarea 1: https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/02_HTML_CSS_Basico/Tarea_1
+- Tarea 1: https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_1/02_HTML_CSS_Basico/Tarea_2

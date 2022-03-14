@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+/* verde #65D269 */
+/* Amarillo #F7F373 */
+/* azul #2F64A3 */
 
 * {
   box-sizing: border-box;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(231, 231, 231);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -18,12 +22,14 @@ h3,
 h4,
 h6,
 h5 {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 p,
 li,
 a {
+  font-weight: 300;
   color: #312F44;
 }
