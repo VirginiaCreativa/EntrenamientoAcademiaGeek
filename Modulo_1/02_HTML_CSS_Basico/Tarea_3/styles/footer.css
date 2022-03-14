@@ -1,0 +1,24 @@
+footer {
+  margin-top: 40px;
+  padding: 40px 0;
+
+  background-color: rgb(48, 48, 48);
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+footer .BoxSocial {
+  display: flex;
+}
+
+footer .BoxSocial a {
+  color: #70bfff;
+  margin-left: 10px;
+}
+footer p {
+  color: #fff;
+}

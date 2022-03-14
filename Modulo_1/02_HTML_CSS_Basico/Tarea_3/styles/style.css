@@ -1,0 +1,17 @@
+@import url("./clear.css");
+@import url("./fonts.css");
+@import url("./footer.css");
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+p,
+li,
+a,
+td {
+  color: rgb(95, 95, 95);
+  font-weight: 300;
+}
