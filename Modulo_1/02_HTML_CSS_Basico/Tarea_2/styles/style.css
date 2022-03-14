@@ -100,23 +100,41 @@ header .BackgroundBlack {
   height: 360px;
   width: 100%;
 }
-#BoxContent .BoxInfo {
-  gap: 160px;
+#BoxContent .container {
+  display: flex;
   justify-content: left;
   align-items: center;
+  gap: 160px;
 }
-#BoxContent .BoxInfo .col2:first-child h2 {
+
+#BoxContent .container .BoxInfo {
+  width: 65%;
+}
+#BoxContent .container .AsideInfo {
+  width: 35%;
+}
+
+#BoxContent .BoxInfo h2 {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-#BoxContent .BoxInfo .col2:first-child h2 > span {
+#BoxContent .BoxInfo h2 > span {
   color: #65D269;
+}
+#BoxContent .BoxInfo .images  {
+  display: flex;
+  gap: 10px;
+  margin-top: 60px;
+}
+#BoxContent .BoxInfo .images img {
+  width: 100%;
+  max-width: 100%;
 }
 
 #BoxContent .AsideInfo img {
   border: 1px solid rgb(206, 206, 206);
   padding: 10px;
-  max-width: 55%;
+  max-width: 75%;
   margin: 0 auto 20px;
 
 }
