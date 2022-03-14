@@ -107,10 +107,12 @@ header .BackgroundBlack {
 }
 #BoxContent .BoxInfo .col2:first-child h2 {
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 #BoxContent .BoxInfo .col2:first-child h2 > span {
   color: #65D269;
 }
+
 #BoxContent .AsideInfo img {
   border: 1px solid rgb(206, 206, 206);
   padding: 10px;
@@ -119,5 +121,12 @@ header .BackgroundBlack {
 
 }
 #BoxContent .AsideInfo table {
-  
+   border-collapse: collapse; 
+}
+#BoxContent .AsideInfo table tbody tr {
+  height: 35px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+#BoxContent .AsideInfo table tbody td {
+  padding: 10px 0;
 }
