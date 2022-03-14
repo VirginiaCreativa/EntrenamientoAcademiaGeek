@@ -1,8 +1,6 @@
 footer {
   margin-top: 40px;
   padding: 40px 0;
-
-  background-color: rgb(48, 48, 48);
 }
 footer div{
   display: flex;
@@ -16,9 +14,9 @@ footer .BoxSocial {
 }
 
 footer .BoxSocial a {
-  color: #70bfff;
+  color: #2185D5;
   margin-left: 10px;
 }
 footer p {
-  color: #fff;
+  color: #3A4750;
 }
