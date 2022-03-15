@@ -1,11 +1,14 @@
 footer {
   margin-top: 40px;
-  padding: 40px 0;
+
 }
-footer div{
+footer .LinePoint {
+  margin: 80px 0 40px;
+}
+footer .container {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   font-size: 12px;
 }
 
