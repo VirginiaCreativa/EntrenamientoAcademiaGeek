@@ -1,7 +1,10 @@
-/* azul #2185D5 */
-/* gris 1 #303841 */
-/* gris 2 #3A4750 */
-/* gris 3 #F3F3F3 */
+:root {
+  --azul: #2185D5;
+  --gris1: #303841;
+  --gris2: #3A4750;
+  --gris3: #f3f3f3;
+  --gris4: #cccccc;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -114,7 +117,6 @@ header {
 
 #BoxContent .title h2 {
   font-weight: 600;
-  /* text-transform: uppercase; */
 }
 
 /* * |======= BOX ARTICLES =======/ */
@@ -153,4 +155,17 @@ header {
 .BoxArticles article .BtnPrimary {
   display: table;
   margin: 0 auto;
+}
+/* * |======= TITLE HEADING =======/ */
+#Title_Headign {
+  margin-bottom: 20px;
+}
+#Title_Headign .SinglePost_Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#Title_Headign .SinglePost_Heading  p {
+  color: var(--gris4);
 }
