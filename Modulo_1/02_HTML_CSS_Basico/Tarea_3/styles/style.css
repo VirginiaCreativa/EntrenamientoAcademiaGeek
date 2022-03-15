@@ -4,10 +4,17 @@
 /* gris 3 #F3F3F3 */
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #fff;
 }
-
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+  letter-spacing: -0.5px;
+}
 p,
 li,
 a {
@@ -16,17 +23,27 @@ a {
 }
 
 #wrapper {
-  width: 80vh;
+  width: 800px;
   margin: 0 auto;
 }
-
+.BtnPrimary {
+  padding: 10px 40px;
+  color: #fff;
+  text-align: ;
+  background-color: #303841;
+  border-radius: 2px;
+}
+.BtnPrimary:hover {
+  background-color: #2185D5;
+}
+/* * |======= LOGO =======/ */
 .Logo {
-  font-family: "Noto Serif Display", serif;
+  font-family: 'Noto Serif Display', serif;
   font-size: 2.6rem;
   font-weight: 600;
   letter-spacing: -2px;
 }
-
+/* * |======= HEADER =======/ */
 nav {
   width: 100%;
   padding: 20px 0;
@@ -50,8 +67,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #2185D5;
+  color: #2185d5;
 }
+/* * |======= HEADER =======/ */
 header {
   padding: 40px 0;
   text-align: center;
@@ -60,8 +78,8 @@ header .LinePoint {
   position: relative;
   display: block;
   height: 2px;
-  margin-top: 20px;;
-  background-color: #F3F3F3;
+  margin-top: 20px;
+  background-color: #f3f3f3;
 }
 header .LinePoint .PointBox {
   position: absolute;
@@ -72,5 +90,50 @@ header .LinePoint .PointBox {
   transform: rotate(45deg);
   width: 12px;
   height: 12px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
+/* * |======= BOX CONTENT =======/ */
+#BoxContent .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#BoxContent .title h2 {
+  font-weight: 600;
+  /* text-transform: uppercase; */
+}
+/* * |======= BOX ARTICLES =======/ */
+.BoxArticles {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.BoxArticles article .img {
+  overflow: hidden;
+  width: 360px;
+  margin-bottom: 10px;
+}
+
+.BoxArticles article .img img {
+  max-width: 100%;
+  box-shadow: 0 15px 18px -15px rgba(32, 32, 37, 0.25);
+}
+.BoxArticles article h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.BoxArticles article h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.BoxArticles article h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.BoxArticles article .BtnPrimary {
+  display: table;
+  margin: 0 auto;
+}
+
+
+
