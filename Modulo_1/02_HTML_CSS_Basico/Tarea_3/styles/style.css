@@ -20,7 +20,7 @@ a {
   margin: 0 auto;
 }
 
-.logo {
+.Logo {
   font-family: "Noto Serif Display", serif;
   font-size: 2.6rem;
   font-weight: 600;
@@ -51,4 +51,26 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #2185D5;
+}
+header {
+  padding: 40px 0;
+  text-align: center;
+}
+header .LinePoint {
+  position: relative;
+  display: block;
+  height: 2px;
+  margin-top: 20px;;
+  background-color: #F3F3F3;
+}
+header .LinePoint .PointBox {
+  position: absolute;
+  top: -260%;
+  right: 50%;
+  left: 50%;
+  display: block;
+  transform: rotate(45deg);
+  width: 12px;
+  height: 12px;
+  background-color: #F3F3F3;
 }
