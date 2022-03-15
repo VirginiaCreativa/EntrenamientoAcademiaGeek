@@ -1,9 +1,9 @@
 :root {
-  --azul: #2185D5;
+  --azul: #2185d5;
   --gris1: #303841;
-  --gris2: #3A4750;
+  --gris2: #3a4750;
   --gris3: #f3f3f3;
-  --gris4: #cccccc;
+  --gris4: #97a3ad;
 }
 
 body {
@@ -25,7 +25,7 @@ p {
 p,
 li,
 a {
-  color: #475763;
+  color: var(--gris1);
   font-weight: 300;
 }
 
@@ -41,7 +41,7 @@ a {
   width: 100%;
   height: 2px;
   margin-top: 20px;
-  background-color: #f3f3f3;
+  background-color: var(--gris3);
 }
 
 .LinePoint .PointBox {
@@ -53,19 +53,33 @@ a {
   transform: rotate(45deg);
   width: 12px;
   height: 12px;
-  background-color: #f3f3f3;
+  background-color: var(--gris3);
+}
+
+.LineSeparate {
+  position: relative;
+  right: 50%;
+  left: 50%;
+  display: flex;
+  width: 40px;
+  height: 2px;
+  margin: 40px 0;
+  background-color: var(--gris1);
 }
 
 .BtnPrimary {
   padding: 10px 40px;
   color: #fff;
   text-align: ;
-  background-color: #303841;
+  background-color: var(--gris2);
   border-radius: 2px;
 }
 
 .BtnPrimary:hover {
-  background-color: #2185D5;
+  background-color: var(--azul);
+}
+.marginBottom {
+  margin-bottom: 40px;
 }
 
 /* * |======= LOGO =======/ */
@@ -100,7 +114,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #2185d5;
+  color: var;
 }
 
 /* * |======= HEADER =======/ */
@@ -158,14 +172,29 @@ header {
 }
 /* * |======= TITLE HEADING =======/ */
 #Title_Headign {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 #Title_Headign .SinglePost_Heading {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin: 20px 0;
 }
-#Title_Headign .SinglePost_Heading  p {
+#Title_Headign .SinglePost_Heading p {
   color: var(--gris4);
+  font-size: 0.8rem;
+}
+#Title_Headign h1 {
+  margin: 10px 0;
+}
+#MainImage {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  margin-bottom: 20px;
+}
+#MainImage img {
+  max-width: 100%;
 }
