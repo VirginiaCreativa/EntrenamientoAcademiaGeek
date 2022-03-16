@@ -1,0 +1,34 @@
+:root {
+  --morada: #533E85;
+  --azul: #488FB1;
+  --verde1: #4FD3C4;
+  --verde2: #C1F8CF;
+  --gris1: #EEEEEE;
+  --gris2: #cecece;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--gris1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+  letter-spacing: -0.5px;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+p,
+li,
+a {
+  color: #333;
+  font-weight: 300;
+}
+/* * ========= HEADER ========= */
