@@ -97,7 +97,7 @@ a {
   margin: 10px 0;
 }
 
-.ImageBorder {
+.ImageShadow {
   margin: 10px 0;
   box-shadow: 0 15px 18px -15px rgba(32, 32, 37, 0.25);
 }
@@ -117,6 +117,7 @@ a {
 .SecTitle p {
   color: var(--gris4);
   font-weight: 400;
+  text-align: center;
   font-style: italic;
 }
 .SecTitle h2, .TercTitle h3 {
@@ -143,6 +144,17 @@ a {
 }
 article p {
   text-align: justify;
+}
+.BoxContent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.BoxContent img:first-child {
+  margin-right: 20px;
+}
+.BoxContent img:last-child {
+  margin-left: 20px;
 }
 /* * |======= LOGO =======/ */
 .Logo {
@@ -268,4 +280,13 @@ header {
 }
 #ArticleNinez .images img {
   width: 100%;
+}
+#ArticleVidasHijos .container {
+  justify-content: space-between;
+}
+#ArticleVidasHijos .container .col3, #ArticleVidasHijos .container .col3 p {
+  text-align: center;
+}
+article p {
+  margin-bottom: 20px;
 }
