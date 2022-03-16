@@ -40,10 +40,10 @@ a {
 .LineSeparate {
   display: flex;
   position: relative;
-  width: 10vw;
-  height: 2px;
-  margin: 20px auto;
-  background-color: var(--gris1);
+  width: 30vw;
+  height: 4px;
+  margin: 0 auto;
+  background-color: rgb(204, 204, 204);
 }
 .container {
   display: flex;
@@ -118,4 +118,31 @@ header h1 {
 }
 #Content .BoxEjemplo a:hover {
   background-color: var(--verde2);
+}
+
+#Content .BoxEjemplo .GraphicArrow {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 10px 40px;
+  border-radius: 40px;
+  background-color: var(--verde1);
+}
+#Content .BoxEjemplo .GraphicArrow::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  right: 40px;
+  transform: rotate(46deg);
+  width: 22px;
+  height: 22px;
+  background-color: var(--verde1);
+}
+#Content .BoxEjemplo .GraphicArrow p {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
