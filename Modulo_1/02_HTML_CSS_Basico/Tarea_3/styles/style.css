@@ -101,7 +101,11 @@ a {
   margin: 10px 0;
   box-shadow: 0 15px 18px -15px rgba(32, 32, 37, 0.25);
 }
-
+.ImgResponsive {
+   max-width: 100%;
+    object-fit: cover;
+  object-position: bottom;
+}
 /* * |======= TIPOGRAFIA =======/ */
 .SecTitle {
   margin: 20px 0 40px;
@@ -136,6 +140,9 @@ a {
   width:100%;
   height: 2px;
   background-color: var(--gris3);
+}
+article p {
+  text-align: justify;
 }
 /* * |======= LOGO =======/ */
 .Logo {
@@ -258,4 +265,7 @@ header {
 
 #MainImage img {
   max-width: 100%;
+}
+#ArticleNinez .images img {
+  width: 100%;
 }
