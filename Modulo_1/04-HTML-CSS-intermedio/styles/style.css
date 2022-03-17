@@ -28,7 +28,8 @@ h5 {
 
 p,
 li,
-a {
+a,
+td {
   color: #EEEEEE;
   font-weight: 300;
 }
@@ -44,8 +45,7 @@ a {
   float: left;
 }
 
-.MainPart .container .col2:first-child {
-  text-align: center;
+.container .col2:first-child {
   margin-right: 10%;
 }
 
@@ -128,13 +128,6 @@ header .container .col2:last-child nav {
   top: 25%;
   height: 100%;
 }
-
-.ContentPart .container {
-  position: relative;
-  top: 22%;
-  height: 100%;
-}
-
 .MainPart .container .col2:last-child {
   text-align: center;
 }
@@ -149,6 +142,24 @@ header .container .col2:last-child nav {
   text-transform: uppercase;
 }
 
-.MainPart .content p {
+.MainPart .content p, .ContentPart .content p{
+  line-height: 1.8;
   margin-bottom: 30px;
+}
+
+.ContentPart table tbody tr td:first-child {
+  font-weight: 600;
+}
+.ContentVideo {
+    position:relative;
+    overflow:hidden;
+    height:0;
+    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+}
+.ContentVideo iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
