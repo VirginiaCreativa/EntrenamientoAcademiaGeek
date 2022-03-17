@@ -2,7 +2,7 @@
   --naranja: #F37A4D;
   --cafe1: #532A3A;
   --cafe2: #9D552D;
-  --amarillo: #F0D898;
+  --amarillo: #fcca41;
   --azul: #86c3ff;
   --gris1: #EEEEEE;
   --gris2: #e0e0e0;
@@ -43,23 +43,40 @@ a {
 }
 /* * ========= HEADER ========= */
 header {
-  padding: 10px;
+  padding: 20px 0;
   color: #fff;
-  background-color: var(--cafe1);
-  border-bottom: 1px solid rgba(34, 34, 34, 0.5);
   margin-bottom: 80px;
 }
 header .logo h1{
   font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-transform: uppercase;
 }
 header nav ul li {
   display: inline;
 }
 header nav ul li a {
+ position: relative;
   margin: 20px;
  color: #fff;
  font-weight: 500;
+}
+header nav ul li a:hover {
+  color: var(--amarillo);
+}
+header nav ul li a.active::before {
+  content: '';
+  display: inline;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+header nav ul li a:hover.active::before {
+  background-color:  var(--amarillo);;
 }
 header .container .col2 {
   height: 49px;
