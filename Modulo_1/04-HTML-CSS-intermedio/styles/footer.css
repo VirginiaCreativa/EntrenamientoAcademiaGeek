@@ -1,23 +1,13 @@
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
   margin-top: 20px;
-
-}
-footer .container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 40px 0;
-  font-size: 12px;
-}
-
-footer .BoxSocial {
-  display: flex;
-}
-
-footer .BoxSocial a {
-  color: #2185D5;
-  margin-left: 10px;
 }
 footer p {
-  color: #3A4750;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
 }
