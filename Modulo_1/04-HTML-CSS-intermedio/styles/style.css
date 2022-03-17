@@ -12,7 +12,7 @@
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: var(--gris2);
+  background-color: var(--naranja);
 }
 
 h1,
@@ -33,4 +33,41 @@ a {
 #wrapper {
   width: 60vw;
   margin: 0 auto;
+}
+.container {
+  display: block;
+  clear: both;
+}
+.container .col2 {
+  display: inline-block;
+}
+/* * ========= HEADER ========= */
+header {
+  padding: 10px;
+  color: #fff;
+  background-color: var(--cafe1);
+  border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+  margin-bottom: 80px;
+}
+header .logo h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 20px;
+ color: #fff;
+ font-weight: 500;
+}
+header .container .col2 {
+  height: 49px;
+}
+header .container .col2:last-child {
+  float: right;
+}
+header .container .col2:last-child nav {
+  position: relative;
+  top: 25%;
 }
