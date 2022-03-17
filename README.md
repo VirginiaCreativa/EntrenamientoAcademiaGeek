@@ -2,7 +2,7 @@
 
 ### Ejercicio Uno
 
-[Resultado](https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_0)
+[](https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_0)
 
 ## Ejercicios Módulo 1
 ### 01 Conceptos Básicos
