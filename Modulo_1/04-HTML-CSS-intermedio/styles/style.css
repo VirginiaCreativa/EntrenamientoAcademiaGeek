@@ -1,11 +1,13 @@
 :root {
-  --morada: #533E85;
-  --azul: #488FB1;
-  --verde1: #4FD3C4;
-  --verde2: #C1F8CF;
+  --naranja: #F37A4D;
+  --cafe1: #532A3A;
+  --cafe2: #9D552D;
+  --amarillo: #F0D898;
+  --azul: #86c3ff;
   --gris1: #EEEEEE;
   --gris2: #e0e0e0;
   --gris3: #8b8b8b;
+  --negro: #333;
 }
 
 body {
@@ -31,4 +33,4 @@ a {
 #wrapper {
   width: 60vw;
   margin: 0 auto;
-} 
+}
