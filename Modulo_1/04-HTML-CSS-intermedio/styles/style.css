@@ -25,53 +25,65 @@ h5 {
   letter-spacing: -0.5px;
   margin-bottom: 0;
 }
+
 p,
 li,
 a {
   color: #EEEEEE;
   font-weight: 300;
 }
+
 #wrapper {
   width: 60vw;
   margin: 0 auto;
 }
+
 .container {
   display: block;
   clear: both;
 }
+
 .container .col2 {
   display: inline-block;
 }
+
 .BtnPrimary {
   padding: 6px 20px;
   background-color: var(--cafe1);
   border-radius: 4px;
 }
+
 .BtnPrimary:hover {
   background-color: var(--cafe2);
 }
+
 /* * ========= HEADER ========= */
 header {
   padding: 20px 0;
   margin-bottom: 80px;
 }
-header .logo h1{
+
+header .logo h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   letter-spacing: -1px;
   text-transform: uppercase;
 }
+
 header nav ul li {
   display: inline;
 }
+
 header nav ul li a {
- position: relative;
+  position: relative;
   margin: 20px;
- font-weight: 500;
+  font-weight: 500;
 }
+
 header nav ul li a:hover {
   color: var(--amarillo);
 }
+
 header nav ul li a.active::before {
   content: '';
   display: inline;
@@ -82,24 +94,31 @@ header nav ul li a.active::before {
   height: 2px;
   background-color: #fff;
 }
+
 header nav ul li a:hover.active::before {
-  background-color:  var(--amarillo);;
+  background-color: var(--amarillo);
+  ;
 }
+
 header .container .col2 {
   height: 49px;
 }
+
 header .container .col2:last-child {
   float: right;
 }
+
 header .container .col2:last-child nav {
   position: relative;
   top: 25%;
 }
+
 /* * ========= MAIN ========= */
 .MainPart {
   height: 65vh;
   margin: auto 0;
 }
+
 .MainPart .container {
   position: relative;
   top: 25%;
@@ -108,25 +127,31 @@ header .container .col2:last-child nav {
   margin: 0 auto;
   clear: both;
 }
+
 .MainPart .container .col2 {
   width: 45%;
   float: left;
 }
+
 .MainPart .container .col2:first-child {
   text-align: center;
   margin-right: 10%;
 }
+
 .MainPart .container .col2:last-child {
-   text-align: center;
+  text-align: center;
 }
+
 .MainPart .container .col2:last-child img {
   max-width: 100%;
   width: 250px;
 }
+
 .MainPart .content h2 {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+
 .MainPart .content p {
   margin-bottom: 30px;
 }
