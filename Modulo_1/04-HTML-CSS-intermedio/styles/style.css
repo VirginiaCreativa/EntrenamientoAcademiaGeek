@@ -123,9 +123,15 @@ header .container .col2:last-child nav {
   margin: auto;
 }
 
-.MainPart .container, .ContentPart .container {
+.MainPart .container {
   position: relative;
   top: 25%;
+  height: 100%;
+}
+
+.ContentPart .container {
+  position: relative;
+  top: 22%;
   height: 100%;
 }
 
