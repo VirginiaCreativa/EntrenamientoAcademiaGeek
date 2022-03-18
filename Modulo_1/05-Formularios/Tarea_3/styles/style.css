@@ -92,10 +92,10 @@ td {
   color: var(--gray3);
   font-size: 0.8em;
 }
-.form_regist .form_regist_item input:valid {
+/* .form_regist .form_regist_item input:valid {
   border: 1px solid var(--gray1);
 }
-/* .form_regist .form_regist_item input:invalid {
+.form_regist .form_regist_item input:invalid:required  {
   border: 1px solid var(--red);
 } */
 .form_regist .form_regist_item p {
