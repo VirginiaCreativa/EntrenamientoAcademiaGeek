@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --blue1: #335795;
+  --blue2: #3d62b3;
+  --blue3: #6d8bc9;
+  --blue4: #899ecb;
+  --blue4: #899ecb;
+  --red: #e74c3c;
+  --green: #2ecc71;
+  --gray1: #ecf0f1;
+  --gray2: #c7c7c7;
+  --gray3: #a5a5a5;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--gray1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 0;
+}
+
+p,
+li,
+a,
+td {
+  color: #868686;
+  font-weight: 300;
+}
+
+#wrapper {
+  display: block;
+  width: 50vw;
+  margin: auto;
+}
+
+.box {
+  height: 80vh;
+  margin: 80px 0;
+}
+
+.box .box_item {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--blue1);
+}
+
+
+.box .box_item:nth-child(1) {
+  z-index: 3;
+  top: 0%;
+  left: 16%;
+  background-color: #FF8AAE;
+}
+
+.box .box_item:nth-child(2) {
+  z-index: 3;
+  top: -9%;
+  left: 32%;
+  background-color: #9ADCFF;
+}
+
+.box .box_item:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  bottom: -5.5px;
+  left: -3.5px;
+  width: 65px;
+  height: 54px;
+  background-color: #FFF89A;
+  border-right: 2px solid var(--blue1);
+  border-top: 2px solid var(--blue1);
+}
+
+.box .box_item:nth-child(3) {
+  z-index: 1;
+  top: -16%;
+  left: 16%;
+  background-color: #FFF89A;
+}
+
+.box .box_item:nth-child(4) {
+  z-index: 2;
+  top: -60%;
+  background-color: #FFB2A6;
+}

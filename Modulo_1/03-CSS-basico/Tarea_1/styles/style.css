@@ -1,11 +1,11 @@
 :root {
-  --morada: #533E85;
-  --azul: #488FB1;
-  --verde1: #4FD3C4;
-  --verde2: #C1F8CF;
-  --gris1: #EEEEEE;
-  --gris2: #e0e0e0;
-  --gris3: #8b8b8b;
+  --morada: #370665;
+  --azul: #35589A;
+  --red: #F14A16;
+  --orange: #FC9918;
+  --gray1: #EEEEEE;
+  --gray2: #e0e0e0;
+  --gray3: #8b8b8b;
 }
 
 body {
@@ -36,113 +36,4 @@ a {
 #wrapper {
   width: 60vw;
   margin: 0 auto;
-}
-.LineSeparate {
-  display: flex;
-  position: relative;
-  width: 30vw;
-  height: 4px;
-  margin: 0 auto;
-  background-color: rgb(204, 204, 204);
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-.container .col2 {
-  width: 45%;
-  padding: 20px;
-  box-shadow: 0 0 8px 0 rgba(32, 32, 37, 0.15);
-  background-color: #fff;
-  border-radius: 6px;
-}
-/* * ========= HEADER ========= */
-header {
-  margin: 40px 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-header h2 {
-  color: var(--gris3);
-  font-weight: 300;
-}
-header h1 {
-  position: relative;
-  top: -10px;
-  color: var(--morada);
-}
-/* * ========= CONTENT ========= */
-#Content {
-  margin-bottom: 20px;
-}
-#Content > code {
-  display: block;
-  padding: 20px;
-  margin: 20px 0;
-  color: #fff;
-  border-radius: 4px;
-  background-color: #333;
-}
-#Content h2 {
-  color: var(--verde1);
-  margin-bottom: 10px;
-}
-#Content p {
-  margin-bottom: 10px;
-}
-#Content p > code, #Content ul > li > code {
-  color: var(--azul);
-}
-#Content .BoxEjemplo {
-  padding: 20px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 2px;
-}
-#Content ul {
-  list-style-position: inside;
-  column-count: 3;
-}
-#Content .BoxEjemplo p {
-  color: var(--gris3);
-}
-#Content .BoxEjemplo a {
-  padding: 6px 24px;
-  color: #333;
-  font-size: 0.8em;
-  font-weight: 700;
-  background-color: var(--verde1);
-  border-radius: 2px;
-  text-transform: uppercase;
-}
-#Content .BoxEjemplo a:hover {
-  background-color: var(--verde2);
-}
-
-#Content .BoxEjemplo .GraphicArrow {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  padding: 10px 40px;
-  border-radius: 40px;
-  background-color: var(--verde1);
-}
-#Content .BoxEjemplo .GraphicArrow::after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 30px;
-  right: 40px;
-  transform: rotate(46deg);
-  width: 22px;
-  height: 22px;
-  background-color: var(--verde1);
-}
-#Content .BoxEjemplo .GraphicArrow p {
-  color: #fff;
-  font-weight: 600;
-  margin-bottom: 0;
-  text-transform: uppercase;
 }
