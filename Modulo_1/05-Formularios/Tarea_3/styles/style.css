@@ -8,12 +8,13 @@
   --blue4: #899ECB;
   --red: #e74c3c;
   --green: #2ecc71;
-  --gray: #ecf0f1;
+  --gray1: #ecf0f1;
+  --gray2: #c7c7c7;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--gris1);
+  background-color: var(--gray1);
 }
 
 h1,
@@ -31,11 +32,17 @@ p,
 li,
 a,
 td {
-  color: #EEEEEE;
+  color: #333;
   font-weight: 300;
 }
 
 #wrapper {
-  width: 60vw;
+  width: 50vw;
   margin: 0 auto;
+}
+
+
+/* * ========= HEADER ========= */
+.logo {
+  text-align: center;
 }
