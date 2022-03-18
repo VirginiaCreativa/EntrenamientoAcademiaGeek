@@ -23,7 +23,7 @@ h3,
 h4,
 h6,
 h5 {
-  color: var(--negro);
+  color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 0;
 }
@@ -32,7 +32,7 @@ p,
 li,
 a,
 td {
-  color: #333;
+  color: #868686;
   font-weight: 300;
 }
 
@@ -40,8 +40,16 @@ td {
   width: 35vw;
   margin: 0 auto;
 }
+.line_separate {
+  display: block;
+  height: 1px;
+  margin: 20px 0;
+  background-color: var(--gray1);
+}
 
-
+.container {
+  width: 100%;
+}
 /* * ========= HEADER ========= */
 .logo {
   text-align: center;
@@ -52,4 +60,31 @@ td {
   box-shadow: 0px 0px 4px 0px rgba(0,0,0, 0.2);
   background-color: #fff;
   border-radius: 4px;
+}
+.form_regist .form_regist_item { 
+  margin-bottom: 20px;
+}
+
+.form_regist .form_regist_item [class*="col"] {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.form_regist .form_regist_item  .col1 input {
+  width: 100%;
+}
+.form_regist .form_regist_item  .col2 input {
+  width: 50%;
+}
+.form_regist .form_regist_item  .col3 input {
+  width: 35%;
+}
+
+.form_regist .form_regist_item  input {
+  padding: 16px;
+  border: 1px solid var(--gray1);
+  border-radius: 4px;
+}
+.form_regist .form_regist_item p {
+  font-size: 0.75em;
 }
