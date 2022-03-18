@@ -10,6 +10,7 @@
   --green: #2ecc71;
   --gray1: #ecf0f1;
   --gray2: #c7c7c7;
+  --gray3: #a5a5a5;
 }
 
 body {
@@ -79,12 +80,51 @@ td {
 .form_regist .form_regist_item  .col3 input {
   width: 35%;
 }
-
-.form_regist .form_regist_item  input {
+.form_regist .form_regist_item input,
+.form_regist .form_regist_item select,
+.form_regist_items_radio {
   padding: 16px;
   border: 1px solid var(--gray1);
   border-radius: 4px;
 }
+
+.form_regist .form_regist_item label {
+  color: var(--gray3);
+  font-size: 0.8em;
+}
+.form_regist .form_regist_item input:valid {
+  border: 1px solid var(--gray1);
+}
+/* .form_regist .form_regist_item input:invalid {
+  border: 1px solid var(--red);
+} */
 .form_regist .form_regist_item p {
   font-size: 0.75em;
+}
+.form_regist .form_regist_item select {
+  width: 100%;
+  border: 1px solid var(--gray1);
+  background-color: transparent;
+}
+.form_regist_item .btn {
+  padding: 16px 24px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+.form_regist_item > .btn  {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.form_regist_item .btn_success {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--green);
+}
+.form_regist_item .form_regist_items_radio {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 35%;
 }
