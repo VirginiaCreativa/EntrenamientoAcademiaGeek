@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-  --blue1: #335795;
-  --blue2: #3d62b3;
-  --blue3: #6d8bc9;
-  --blue4: #899ecb;
-  --blue4: #899ecb;
-  --red: #e74c3c;
-  --green: #2ecc71;
-  --gray1: #ecf0f1;
-  --gray2: #c7c7c7;
-  --gray3: #a5a5a5;
+  --morada: #370665;
+  --azul: #35589A;
+  --red: #F14A16;
+  --orange: #FC9918;
+  --gray1: #EEEEEE;
+  --gray2: #e0e0e0;
+  --gray3: #8b8b8b;
 }
 
 body {
   font-family: 'Oswald', sans-serif;
-  background-color: var(--gray1);
+  background-color: #fff;
 }
 
 h1,
