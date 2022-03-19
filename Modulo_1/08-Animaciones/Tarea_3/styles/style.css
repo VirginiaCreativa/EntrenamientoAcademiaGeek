@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-  --morada: #370665;
-  --azul: #35589A;
+  --dwelling: #370665;
+  --blue1: #35589A;
+  --blue2: #110a24;
   --red: #F14A16;
   --orange: #FC9918;
   --gray1: #EEEEEE;
@@ -11,8 +12,23 @@
 }
 
 body {
+  background-image: url(./../images/bgSpace.jpg);
+  top: 0;
+  left: 0;
   font-family: 'Oswald', sans-serif;
+  background-size: cover;
   background-color: #fff;
+}
+.bgcCover {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--blue2);
 }
 
 h1,
@@ -21,7 +37,7 @@ h3,
 h4,
 h6,
 h5 {
-  color: #333;
+  color: #fff;
   letter-spacing: -0.5px;
   margin-bottom: 0;
 }
@@ -30,64 +46,53 @@ p,
 li,
 a,
 td {
-  color: #868686;
+  color: #fff;
   font-weight: 300;
 }
 
 #wrapper {
   display: block;
-  width: 50vw;
+  width: 80vw;
   margin: auto;
 }
 
-.box {
-  height: 80vh;
-  margin: 80px 0;
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.row .col2 {
+ width: 45%;
 }
 
-.box .box_item {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border: 2px solid var(--blue1);
+/* * ========= NAVEGATION ========= */
+header {
+  padding: 20px;
+  background-color: var(--blue2);
 }
-
-
-.box .box_item:nth-child(1) {
-  z-index: 3;
-  top: 0%;
-  left: 16%;
-  background-color: #FF8AAE;
+header .row {
+  justify-content: space-around;
 }
-
-.box .box_item:nth-child(2) {
-  z-index: 3;
-  top: -9%;
-  left: 32%;
-  background-color: #9ADCFF;
+header .logo h1{
+  font-weight: 300;
 }
-
-.box .box_item:nth-child(2)::after {
-  content: '';
-  position: absolute;
-  bottom: -5.5px;
-  left: -3.5px;
-  width: 65px;
-  height: 54px;
-  background-color: #FFF89A;
-  border-right: 2px solid var(--blue1);
-  border-top: 2px solid var(--blue1);
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: right;
 }
-
-.box .box_item:nth-child(3) {
-  z-index: 1;
-  top: -16%;
-  left: 16%;
-  background-color: #FFF89A;
+header nav ul li {
+  list-style: none;
 }
+header nav ul li a {
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
 
-.box .box_item:nth-child(4) {
-  z-index: 2;
-  top: -60%;
-  background-color: #FFB2A6;
+}
+header nav ul li a:hover {
+  width: 37px;
+  padding: 6px 12px;
+  border: 1px solid #fff;
 }
