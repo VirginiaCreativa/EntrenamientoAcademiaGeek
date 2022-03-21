@@ -2,11 +2,11 @@
 
 :root {
   --dwelling: #370665;
-  --blue1: #35589A;
+  --blue1: #35589a;
   --blue2: #110a24;
-  --red: #F14A16;
-  --orange: #FC9918;
-  --gray1: #EEEEEE;
+  --red: #f14a16;
+  --orange: #fc9918;
+  --gray1: #eeeeee;
   --gray2: #e0e0e0;
   --gray3: #8b8b8b;
 }
@@ -81,17 +81,63 @@ header .logo h1 {
   font-weight: 300;
 }
 
-header .menu > ul {
+header ul.menu {
   display: flex;
+  position: relative;
   flex-direction: row;
   justify-content: end;
+  gap: 20px;
   text-align: right;
 }
 
-header .menu > ul > li, .subMenu > ul > li {
-  position: relative;
+
+header ul.menu li,
+ul.subMenu li {
+  padding: 6px;
+  transition: all 0.5s ease;
   list-style: none;
 }
+
+header ul.menu li a,
+ul.subMenu li a {
+  text-shadow: none;
+  transform-origin: center center;
+  transition: all 0.3s ease;
+}
+header ul.menu li a:hover,
+ul.subMenu li a:hover {
+  text-shadow: 0 0 4px #fff;
+}
+
+header ul.menu ul.subMenu {
+  display: nobe;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  opacity: 0;
+  width: 120px;
+  padding: 10px 20px;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  background-color: var(--orange);
+}
+header ul.subMenu li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+header ul.subMenu li:last-child {
+  border-bottom: none;
+  margin-bottom: none;
+}
+header ul.menu li:hover > ul.subMenu {
+  display: block;
+  top: 40px;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*
 
 header .menu > ul > li > a {
   padding: 6px 12px;
@@ -132,4 +178,4 @@ header .menu > ul > li > .subMenu {
 }
 .subMenu > ul > li:last-child {
   margin-bottom: 0;
-}
+} */
