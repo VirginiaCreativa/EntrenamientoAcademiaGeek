@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url(./../images/bgSpace.jpg);
+  background-image: url(./../images/bgcSpaceVector.jpg);
   top: 0;
   left: 0;
   font-family: 'Oswald', sans-serif;
@@ -29,7 +29,7 @@ body {
   opacity: 0.9;
   width: 100vw;
   height: 100vh;
-  background-color: var(--blue2);
+  /* background-color: var(--blue2); */
 }
 
 h1,
@@ -69,7 +69,8 @@ td {
 
 /* * ========= NAVEGATION ========= */
 header {
-  padding: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 0 16px rgba(0, 0, 0, 0.8);
   background-color: var(--blue2);
 }
 
