@@ -64,3 +64,15 @@ td {
 .topmarvel {
   display: grid;
 }
+.topmarvel .items {
+  display: block;
+  overflow: hidden;
+  max-height: 400px;
+  height: 100%;
+
+}
+.topmarvel .items img {
+  max-width: 100%;
+  height: auto;
+  background-position: top center;
+}
