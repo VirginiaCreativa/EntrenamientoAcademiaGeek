@@ -39,17 +39,28 @@ td {
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 80vw;
   margin: auto;
 }
 
 .logo {
   text-align: center;
+  margin-bottom: 60px;
 }
 .logo img{
   max-width: 50%;
   width: 100%;
+}
+.heading {
+  text-align: center;
+ margin-bottom: 40px;
+}
+.heading .heading_title {
+  font-size: 2rem;
+}
+.heading .heading_paragraph p{
+  font-weight: 200;
+}
+.topmarvel {
+  display: grid;
 }
