@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --dwelling: #370665;
+  --blue1: #35589a;
+  --blue2: #110a24;
+  --red: #f14a16;
+  --orange: #fc9918;
+  --gray1: #eeeeee;
+  --gray2: #e0e0e0;
+  --gray3: #8b8b8b;
+}
+
+body {
+  background-image: url(./../images/bgcSpaceVector.jpg);
+  top: 0;
+  left: 0;
+  font-family: 'Oswald', sans-serif;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.bgcCover {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--blue2); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin-bottom: 0;
+}
+
+p,
+li,
+a,
+td {
+  color: #fff;
+  font-weight: 300;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.row .col2 {
+  width: 45%;
+}
