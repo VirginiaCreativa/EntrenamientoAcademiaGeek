@@ -18,6 +18,7 @@
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/06-Unidades-Posicionamiento/Tarea_3/)
 ### 08 Animaciones
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/08-Animaciones/Tarea_3/)
-
+### 09 Grid
+- [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/09-Grid/Tarea_3/)
 
 
