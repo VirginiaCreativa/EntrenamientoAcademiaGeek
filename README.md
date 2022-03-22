@@ -1,6 +1,3 @@
-## Ejercicios Módulo 0
-- [Tarea 1](https://github.com/VirginiaCreativa/EntrenamientoAcademiaGeek/tree/master/Modulo_0)
-
 ## Ejercicios Módulo 1
 ### 01 Conceptos Básicos
 - [Tarea_1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/01_ConceptosBasicos/Tarea_1/)
