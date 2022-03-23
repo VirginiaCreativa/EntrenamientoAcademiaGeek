@@ -68,6 +68,12 @@ td {
   font-size: 2rem;
 }
 
+.heading .heading_title h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+
 .heading .heading_paragraph p {
   font-weight: 200;
 }
