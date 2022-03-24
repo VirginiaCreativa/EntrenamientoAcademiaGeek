@@ -1,4 +1,5 @@
-## Ejercicios Módulo 1
+# Módulo 1
+## HTML Y CSS
 ### 01 Conceptos Básicos
 - [Tarea_1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/01_ConceptosBasicos/Tarea_1/)
 ### 02 HTML CSS Basico
@@ -19,3 +20,8 @@
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/09-Grid/Tarea_3/)
 
 
+# Módulo 2
+## JavaScript
+
+### 01 Conceptos Básicos
+- [Tarea_1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/01_ConceptosBasicos/Tarea_1/)
