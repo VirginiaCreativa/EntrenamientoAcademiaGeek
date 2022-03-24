@@ -24,4 +24,4 @@
 ## JavaScript
 
 ### 01 Conceptos Básicos
-- [Tarea_1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/01_ConceptosBasicos/Tarea_1/)
+- [Tarea_1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/01-Conceptos-Basicos/Tarea_1/)
