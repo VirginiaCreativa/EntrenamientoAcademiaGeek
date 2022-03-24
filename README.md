@@ -7,7 +7,7 @@
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/02_HTML_CSS_Basico/Tarea_3/)
 ### 03 CSS Básico
 - [Tarea 1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/03-CSS-basico/Tarea_1)
-### 04 CSS Básico
+### 04 HTML CSS intermedio
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/04-HTML-CSS-intermedio/Tarea_3/)
 ### 05 Formularios
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_1/05-Formularios/Tarea_3/)
