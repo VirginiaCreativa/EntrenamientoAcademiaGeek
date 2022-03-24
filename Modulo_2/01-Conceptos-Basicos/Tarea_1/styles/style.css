@@ -64,7 +64,6 @@ header {
 
 .calc .calc_box p {
   font-size: 2rem;
-
 }
 
 .calc .calc_box .calc_element {
@@ -72,7 +71,7 @@ header {
   font-weight: 600;
 }
 
-.cal .calc_box [class*="calc_num"] {
+.cal .calc_box p[class*="calc_num1"] {
   padding: 10px;
   background-color: var(--gray1);
   border-radius: 2px;
