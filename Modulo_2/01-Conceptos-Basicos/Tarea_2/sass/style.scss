@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 $blue: #4d96ff;
 $yellow: #ffd93d;
 $green: #76e084;
 $red: #f86060;
 $orange: #fca118;
-$gray1: #eeeeee;
+$gray1: #F2F4F3;
 $gray2: #5e6383;
 $gray3: #373a55;
 
@@ -21,25 +21,62 @@ h6 {
 body {
   top: 0;
   left: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(262deg, #afcccb 0%, #616566 100%);
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: $blue;
 }
 .formSalary {
-  color: #fff;
-  .formSalary_box {
-    background: linear-gradient(128deg, $gray2 0%, $gray3 100%);
-    border-radius: 10px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    width: 400px;
-  }
-  .row {
+  color: $gray3;
+  > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
   }
+  .formSalary_box {
+    background-color: $gray1;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    width: 600px;
+    @media (max-width: 576px)  {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
   .formSalary_heading {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     h1 {
       font-size: 1.2rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+  }
+  .formSalary_inform {
+    .row {
+      border-bottom: 2px dotted rgba(225, 225, 225, 1);
+      height: 60px;
+      margin-bottom: 8px;
+
+    }
+    [class*="col-"] {
+      display: flex;
+      align-items: center;
+    }
+    h6, p {
+      margin-bottom: 0;
+      font-size: 1rem;
+    }
+    h6 {
+      font-weight: 500;
+    }
+    p {
+      font-weight: 200;
+      color: #808080;
+      &.formSalary_addTotalSalario {
+        background-color: $red;
+        color: #fff;
+        font-weight: 500;
+        padding: 4px 10px;
+      }
     }
   }
 }
