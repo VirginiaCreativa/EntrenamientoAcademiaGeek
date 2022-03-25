@@ -11,32 +11,26 @@ h6 {
 body {
   top: 0;
   left: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(262deg, #afcccb 0%, #616566 100%);
 }
 
 .formSalary {
   color: #fff;
 }
-
 .formSalary .formSalary_box {
   background: linear-gradient(128deg, #5e6383 0%, #373a55 100%);
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: 400px;
 }
-
 .formSalary .row {
   height: 100vh;
 }
-
 .formSalary .formSalary_heading {
   margin-bottom: 20px;
 }
-
 .formSalary .formSalary_heading h1 {
   font-size: 1.2rem;
 }
-/*# sourceMappingURL=style.css.map */
