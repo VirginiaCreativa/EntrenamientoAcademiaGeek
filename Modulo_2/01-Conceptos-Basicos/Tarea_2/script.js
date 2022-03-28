@@ -12,9 +12,17 @@ let queryPago = prompt('Cuantos hora pago?');
 let queryHorasTrabajadas = prompt('Cuantas horas trabajadas?');
 
 CalcularSalario = Number(queryPago) * Number(queryHorasTrabajadas);
-addNombre.innerHTML = queryNombre;
-addHoraPago.innerHTML = queryPago;
-addHorasTrabajadas.innerHTML = queryHorasTrabajadas;
-addTotalSalario.innerHTML = CalcularSalario;
+addNombre.innerHTML = queryNombre || 'desconocido';
+addHoraPago.innerHTML = `$ ${queryPago || 0}`;
+addHorasTrabajadas.innerHTML = queryHorasTrabajadas || 0;
+
+let BilleteCOP = new Intl.NumberFormat('es-CO', {
+  style: 'currency',
+  currency: 'COP',
+  minimumFractionDigits: 0,
+}).format(CalcularSalario);
+console.log(BilleteCOP);
+
+addTotalSalario.innerHTML = BilleteCOP;
 
 console.log(CalcularSalario);
