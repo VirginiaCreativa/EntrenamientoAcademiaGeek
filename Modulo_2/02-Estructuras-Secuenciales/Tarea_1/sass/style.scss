@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap');
+
+$blue: #38aaf7;
+$navy: #33425B;
+$navy2: #3E4A61;
+$yellow: #FAB95B;
+$green: #42B883;
+$red: #F35B25;
+$orange: #F16821;
+$gray1: #ECF0F1;
+$general: #393E46;
+
+
+body {
+  background-color: $gray1;
+}
+
+.logo {
+
+  img {
+    max-height: 40px;
+  }
+}
+
+header {
+  padding: 40px 0 ;
+}
