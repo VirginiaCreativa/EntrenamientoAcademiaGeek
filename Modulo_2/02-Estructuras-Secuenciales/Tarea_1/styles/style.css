@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 body {
-  background-color: #ECF0F1;
   font-family: 'Poppins', serif;
+  background-color: #ecf0f1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #33425B;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #33425b;
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
 }
 
-p {
-  font-weight: 300;
+p,
+li {
+  font-weight: 200 !important;
 }
 
 .logo img {
@@ -31,13 +37,98 @@ header {
 }
 
 .title h6 {
-  font-weight: 200 !important;
   color: #969aa7;
+  font-weight: 200 !important;
 }
 
-.statistics [class*="col-"] {
-  background-color: #fff;
+.box_body {
   padding: 20px;
+  background-color: #fff;
   border-radius: 10px;
+}
+
+.card_statistic {
+  position: relative;
+}
+
+.card_statistic .card_number {
+  border-top: 1px solid #f2f1f1;
+}
+
+.card_statistic .card_number ul li {
+  display: inline-block;
+  color: #969aa7;
+  font-size: 0.85rem;
+  text-align: right;
+  margin-right: 160px;
+}
+
+.card_statistic .card_number ul li span {
+  position: relative;
+  left: -8px;
+}
+
+.card_statistic .card_number ul li:last-child {
+  margin-right: 0;
+}
+
+.card_statistic .card_number ul li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 60px;
+  width: 1px;
+  height: 46%;
+  background-color: #f2f1f1;
+  z-index: 1;
+}
+
+.card_statistic .card_sexo {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.card_statistic .card_sexo p {
+  color: #969aa7;
+  margin-bottom: 20px;
+}
+
+.card_statistic .card_chart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+  z-index: 2;
+}
+
+.card_statistic .card_chart .design_chart, .card_statistic .card_chart .body_chart, .card_statistic .card_chart .card_chart_porcent_woman, .card_statistic .card_chart .card_chart_porcent_man {
+  height: 20px;
+  border-radius: 20px;
+}
+
+.card_statistic .card_chart .body_chart {
+  width: 100%;
+  background-color: #ecf0f1;
+}
+
+.card_statistic .card_chart [class*='card_chart_porcent_'] {
+  position: absolute;
+}
+
+.card_statistic .card_chart .card_chart_porcent_woman {
+  background-color: #42b883;
+  width: 29%;
+}
+
+.card_statistic .card_chart .card_chart_porcent_man {
+  width: 39%;
+  background-color: #38aaf7;
 }
 /*# sourceMappingURL=style.css.map */

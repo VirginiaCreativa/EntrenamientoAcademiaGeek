@@ -1,28 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 $blue: #38aaf7;
-$navy: #33425B;
-$navy2: #3E4A61;
-$yellow: #FAB95B;
-$green: #42B883;
-$red: #F35B25;
-$orange: #F16821;
-$gray1: #ECF0F1;
+$navy: #33425b;
+$navy2: #3e4a61;
+$yellow: #fab95b;
+$green: #42b883;
+$red: #f35b25;
+$orange: #f16821;
+$gray1: #ecf0f1;
 $gray2: #969aa7;
-$general: #393E46;
-
+$gray3: #e2dfdf;
+$general: #393e46;
 
 body {
-  background-color: $gray1;
   font-family: 'Poppins', serif;
+  background-color: $gray1;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $navy;
   text-shadow: 1px 1px 0px rgba($color: #fff, $alpha: 0.3);
 }
-p {
-  font-weight: 300;
+p,
+li {
+  font-weight: 200 !important;
 }
+
 .logo {
   img {
     max-height: 40px;
@@ -30,7 +37,7 @@ p {
 }
 
 header {
-  padding: 40px 0 ;
+  padding: 40px 0;
 }
 .title {
   margin-bottom: 40px;
@@ -39,15 +46,83 @@ header {
     letter-spacing: -1px;
   }
   h6 {
-    font-weight: 200 !important;
     color: $gray2;
+    font-weight: 200 !important;
   }
 }
 
-.statistics {
-  [class*="col-"] {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+.box_body {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.card_statistic {
+  position: relative;
+  .card_number {
+    border-top: 1px solid #f2f1f1;
+    ul {
+      li {
+        display: inline-block;
+        color: $gray2;
+        font-size: 0.85rem;
+        text-align: right;
+        margin-right: 160px;
+        span {
+          position: relative;
+          left: -8px;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: 60px;
+          width: 1px;
+          height: 46%;
+          background-color: #f2f1f1;
+          z-index: 1;
+        }
+      }
+    }
+  }
+  .card_sexo {
+    text-align: right;
+    margin-top: 20px;
+    p {
+      color: $gray2;
+      margin-bottom: 20px;
+    }
+  }
+  .card_chart {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    z-index: 2;
+    .design_chart {
+      height:20px;
+      border-radius: 20px;
+    }
+    .body_chart {
+      width: 100%;
+      background-color: $gray1;
+      @extend .design_chart;
+    }
+    [class*='card_chart_porcent_']{
+      position: absolute;
+    }
+    .card_chart_porcent_woman {
+      background-color: $green;
+      width: 29%;
+      @extend .design_chart;
+    }
+    .card_chart_porcent_man {
+      width: 39%;
+      background-color: $blue;
+      @extend .design_chart;
+    }
   }
 }

@@ -9,7 +9,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>emme
+  </script>
   <link rel="stylesheet" href="./styles/style.css">
   <title>Grupo de estudiantes</title>
 </head>
@@ -33,51 +33,56 @@
     </div>
   </section>
 
-  <section class="statistics">
+  <section class="box">
     <div class="container">
-      <div class="row gap-3">
-        <div class="col-7">
-          <h3>Estadistica</h3>
-          <div class="row gap-3">
-            <div class="col-1">
-              <div class="panel_number">
-                <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-8">
-              <div class="panel_chart">
-                <div class="panel_chart_woman">
-                  <div class="panel_chart_porcent_woman"></div>
-                  <div class="body_chart"></div>
-                </div>
-                <div class="panel_chart_man">
-                  <div class="panel_chart_porcent_woman"></div>
-                  <div class="body_chart"></div>
+
+      <div class="row  justify-content-between">
+        <div class="col-8">
+          <div class="card_statistic box_body">
+            <h5>Estadistica</h5>
+            <div class="row">
+              <div class="col-1">
+                <div class="card_sexo">
+                  <div class="card_sexo_woman">
+                    <p>Mujer</p>
+                  </div>
+                  <div class="card_sexo_man">
+                    <p>Man</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="row gap-3">
-            <div class="col-1"></div>
-            <div class="col-9">
-              <div class="panel_sexo">
-                <div class="panel_sexo_woman">
-                  <p>Mujer</p>
+              <div class="col-11">
+                <div class="card_chart">
+                  <div class="card_chart_woman">
+                    <div class="card_chart_porcent_woman"></div>
+                    <div class="body_chart"></div>
+                  </div>
+                  <div class="card_chart_man">
+                    <div class="card_chart_porcent_man"></div>
+                    <div class="body_chart"></div>
+                  </div>
                 </div>
-                <div class="panel_sexo_man">
-                  <p>Man</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-11">
+                <div class="card_number">
+                  <ul class="list-unstyled">
+                    <li><span>0</span></li>
+                    <li><span>25</span></li>
+                    <li><span>50</span></li>
+                    <li><span>75</span></li>
+                    <li><span>100</span></li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-3">informa</div>
+        <div class="col-4">
+          <div class="card_statistic box_body">informa</div>
+        </div>
       </div>
     </div>
   </section>
