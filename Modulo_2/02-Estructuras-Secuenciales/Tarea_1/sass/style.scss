@@ -33,6 +33,7 @@ header {
   padding: 40px 0 ;
 }
 .title {
+  margin-bottom: 40px;
   h1 {
     font-weight: 500;
     letter-spacing: -1px;
@@ -40,5 +41,13 @@ header {
   h6 {
     font-weight: 200 !important;
     color: $gray2;
+  }
+}
+
+.statistics {
+  [class*="col-"] {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
   }
 }
