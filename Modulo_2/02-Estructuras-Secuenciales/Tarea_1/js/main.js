@@ -1,6 +1,8 @@
 let total;
-let numberGirl = 10;
-let numberBoy = 20;
+let porcentGirl;
+let porcentBoy;
+let numberGirl = 0;
+let numberBoy = 0;
 
 const localGirlNumber = '.card_inform_woman_number';
 const localBoyNumber = '.card_inform_man_number';
@@ -15,9 +17,18 @@ let addNumberTotal = document.querySelector(localTotalNumber);
 let addPorcentGirl = document.querySelector(localGirlPorcent);
 let addPorcentBoy = document.querySelector(localBoylPorcent);
 
-addNumberGirl.textContent = numberGirl;
-addNumberBoy.textContent = numberBoy;
-addNumberTotal.textContent = numberGirl + numberBoy;
+let queryGirlNumber = Number(prompt('Ingrese la cantidad de Chicas?'));
+let queryBoyNumber = Number(prompt('Ingrese la cantidad de Chicos?'));
 
-addPorcentGirl.style.width = '80%';
-addPorcentBoy.style.width = '50%';
+porcentGirl = (queryGirlNumber / (queryGirlNumber + queryBoyNumber)) * 100;
+porcentBoy = (queryBoyNumber / (queryGirlNumber + queryBoyNumber)) * 100;
+
+addNumberGirl.textContent = queryGirlNumber || numberGirl;
+addNumberBoy.textContent = queryBoyNumber || numberBoy;
+addNumberTotal.textContent = queryGirlNumber + queryBoyNumber;
+
+console.log(porcentGirl);
+console.log(porcentBoy);
+
+addPorcentGirl.style.width = `${porcentGirl.toFixed(2)}%`;
+addPorcentBoy.style.width = `${porcentBoy.toFixed(2)}%`;
