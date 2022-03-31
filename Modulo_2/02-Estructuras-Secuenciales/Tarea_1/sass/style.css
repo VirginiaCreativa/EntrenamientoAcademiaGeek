@@ -123,12 +123,12 @@ header {
 }
 
 .card_statistic .card_chart .card_chart_porcent_woman {
-  width: 29%;
+  width: 0;
   background-color: #42b883;
 }
 
 .card_statistic .card_chart .card_chart_porcent_man {
-  width: 39%;
+  width: 0;
   background-color: #38aaf7;
 }
 

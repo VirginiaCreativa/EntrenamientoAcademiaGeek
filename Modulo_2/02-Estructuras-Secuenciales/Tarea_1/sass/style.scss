@@ -115,12 +115,12 @@ header {
       position: absolute;
     }
     .card_chart_porcent_woman {
-      width: 29%;
+      width: 0;
       background-color: $green;
       @extend .design_chart;
     }
     .card_chart_porcent_man {
-      width: 39%;
+      width: 0;
       background-color: $blue;
       @extend .design_chart;
     }
