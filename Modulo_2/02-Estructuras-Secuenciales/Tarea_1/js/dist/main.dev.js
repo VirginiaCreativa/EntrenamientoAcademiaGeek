@@ -21,8 +21,17 @@ porcentGirl = queryGirlNumber / (queryGirlNumber + queryBoyNumber) * 100;
 porcentBoy = queryBoyNumber / (queryGirlNumber + queryBoyNumber) * 100;
 addNumberGirl.textContent = queryGirlNumber || numberGirl;
 addNumberBoy.textContent = queryBoyNumber || numberBoy;
-addNumberTotal.textContent = queryGirlNumber + queryBoyNumber;
-console.log(porcentGirl);
-console.log(porcentBoy);
-addPorcentGirl.style.width = "".concat(porcentGirl.toFixed(2), "%");
-addPorcentBoy.style.width = "".concat(porcentBoy.toFixed(2), "%");
+addNumberTotal.textContent = queryGirlNumber + queryBoyNumber; // console.log(queryGirlNumber);
+// console.log(porcentBoy);
+
+if (queryGirlNumber === 0) {
+  addPorcentGirl.style.width = '0%';
+} else {
+  addPorcentGirl.style.width = "".concat(porcentGirl.toFixed(2), "%");
+}
+
+if (queryBoyNumber === 0) {
+  addPorcentBoy.style.width = '0%';
+} else {
+  addPorcentBoy.style.width = "".concat(porcentBoy.toFixed(2), "%") || '0%';
+}

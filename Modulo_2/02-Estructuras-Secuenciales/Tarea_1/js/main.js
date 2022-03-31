@@ -27,8 +27,17 @@ addNumberGirl.textContent = queryGirlNumber || numberGirl;
 addNumberBoy.textContent = queryBoyNumber || numberBoy;
 addNumberTotal.textContent = queryGirlNumber + queryBoyNumber;
 
-console.log(porcentGirl);
-console.log(porcentBoy);
+// console.log(queryGirlNumber);
+// console.log(porcentBoy);
 
-addPorcentGirl.style.width = `${porcentGirl.toFixed(2)}%`;
-addPorcentBoy.style.width = `${porcentBoy.toFixed(2)}%`;
+if (queryGirlNumber === 0) {
+  addPorcentGirl.style.width = '0%';
+} else {
+  addPorcentGirl.style.width = `${porcentGirl.toFixed(2)}%`;
+}
+
+if (queryBoyNumber === 0) {
+  addPorcentBoy.style.width = '0%';
+} else {
+  addPorcentBoy.style.width = `${porcentBoy.toFixed(2)}%` || '0%';
+}
