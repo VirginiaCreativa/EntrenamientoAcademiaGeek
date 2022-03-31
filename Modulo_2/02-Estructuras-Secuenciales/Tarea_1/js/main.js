@@ -17,8 +17,8 @@ let addNumberTotal = document.querySelector(localTotalNumber);
 let addPorcentGirl = document.querySelector(localGirlPorcent);
 let addPorcentBoy = document.querySelector(localBoylPorcent);
 
-let queryGirlNumber = Number(prompt('Ingrese la cantidad de Chicas?'));
-let queryBoyNumber = Number(prompt('Ingrese la cantidad de Chicos?'));
+// let queryGirlNumber = Number(prompt('Ingrese la cantidad de Chicas?'));
+// let queryBoyNumber = Number(prompt('Ingrese la cantidad de Chicos?'));
 
 porcentGirl = (queryGirlNumber / (queryGirlNumber + queryBoyNumber)) * 100;
 porcentBoy = (queryBoyNumber / (queryGirlNumber + queryBoyNumber)) * 100;

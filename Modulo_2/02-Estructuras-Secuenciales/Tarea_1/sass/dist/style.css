@@ -70,9 +70,9 @@ header {
   display: block;
   position: absolute;
   z-index: 1;
-  bottom: 60px;
+  bottom: 100px;
   width: 1px;
-  height: 46%;
+  height: 38%;
   background-color: #f2f1f1;
 }
 .card_statistic .card_sexo {
@@ -110,6 +110,38 @@ header {
   width: 0;
   background-color: #38aaf7;
 }
+.card_statistic .card_porcents {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  gap: 20px;
+}
+.card_statistic .card_porcents [class*=card_porcent_] {
+  height: 100%;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.card_statistic .card_porcents [class*=card_porcent_] p {
+  font-size: 0.8rem;
+  font-weight: 500 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.card_statistic .card_porcents [class*=card_porcent_] p span {
+  margin-left: 5px;
+}
+.card_statistic .card_porcents .card_porcent_woman {
+  background-color: #9fffd4;
+}
+.card_statistic .card_porcents .card_porcent_woman p {
+  color: #42b883;
+}
+.card_statistic .card_porcents .card_porcent_man {
+  background-color: #a7dcff;
+}
+.card_statistic .card_porcents .card_porcent_man p {
+  color: #38aaf7;
+}
 
 .box {
   height: 60vh;
@@ -142,22 +174,22 @@ header {
   padding-bottom: 0;
 }
 .card_inform article p {
-  font-size: 0.8rem;
   color: #5f5f5f;
+  font-size: 0.8rem;
   font-weight: 400 !important;
 }
 
 footer {
-  margin-top: 60px;
   text-align: center;
+  margin-top: 60px;
 }
 footer img {
-  max-height: 15px;
   opacity: 0.3;
+  max-height: 15px;
 }
 footer a {
-  font-size: 0.9rem;
-  text-decoration: none;
   color: #a8a8a8;
+  font-size: 0.9rem;
   font-weight: 300;
+  text-decoration: none;
 }
