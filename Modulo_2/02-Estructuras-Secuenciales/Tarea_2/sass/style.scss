@@ -60,11 +60,13 @@ header {
 }
 
 .conversion {
+  height: 58vh;
   h3 {
     text-align: center;
     margin-bottom: 30px;
   }
   .conversion_form {
+    margin-bottom: 40px;
     form {
       display: flex;
       justify-content: center;
@@ -75,5 +77,50 @@ header {
       border: 1px solid $gray3;
       border-radius: 4px;
     }
+  }
+  .conversion_result {
+    text-align: center;
+    p {
+      position: relative;
+      font-size: 1.4rem;
+      .conversion_result_pulg {
+        position: relative;
+        margin: 0 10px;
+        font-weight: 500;
+        text-align: center;
+        &::before {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          bottom: 0;
+          left: -6px;
+          width: 200%;
+          height: 2px;
+          background-color: $blue;
+        }
+      }
+      .conversion_result_metro {
+        padding: 4px 8px;
+        color: $navy;
+        font-weight: 500;
+        background-color: $green;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  img {
+    opacity: 0.3;
+    max-height: 15px;
+  }
+  a {
+    color: #a8a8a8;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-decoration: none;
   }
 }
