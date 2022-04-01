@@ -52,3 +52,28 @@ header {
     margin-bottom: 0;
   }
 }
+
+.box_body {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.conversion {
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .conversion_form {
+    form {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .conversion_form_input {
+      padding: 8px 10px;
+      border: 1px solid $gray3;
+      border-radius: 4px;
+    }
+  }
+}
