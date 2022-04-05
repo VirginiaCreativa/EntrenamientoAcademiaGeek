@@ -7,9 +7,11 @@ const localArticulo = '.BoxComprarResult_Articulo';
 const localPrecio = '.BoxComprarResult_Precio';
 const localClave = 'input[name="form-radio"]';
 const buttonDescuento = '.btnDescuento';
+const showMarkerResult = '.BoxMarker_Result';
 
 let inputClave = document.querySelectorAll(localClave);
 let btnDescuento = document.querySelector('.btnDescuento');
+let showResult = document.querySelector(showMarkerResult);
 
 btnDescuento.addEventListener('click', (ev) => {
   let selectedClave;
@@ -21,6 +23,7 @@ btnDescuento.addEventListener('click', (ev) => {
       break;
     }
   }
+  showResult.style.display = 'block';
 });
 
 console.log(inputClave);

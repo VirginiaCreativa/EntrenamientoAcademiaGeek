@@ -8,8 +8,10 @@ var localArticulo = '.BoxComprarResult_Articulo';
 var localPrecio = '.BoxComprarResult_Precio';
 var localClave = 'input[name="form-radio"]';
 var buttonDescuento = '.btnDescuento';
+var showMarkerResult = '.BoxMarker_Result';
 var inputClave = document.querySelectorAll(localClave);
 var btnDescuento = document.querySelector('.btnDescuento');
+var showResult = document.querySelector(showMarkerResult);
 btnDescuento.addEventListener('click', function (ev) {
   var selectedClave;
 
@@ -20,6 +22,8 @@ btnDescuento.addEventListener('click', function (ev) {
       break;
     }
   }
+
+  showResult.style.display = 'block';
 });
 console.log(inputClave);
 console.log(btnDescuento);

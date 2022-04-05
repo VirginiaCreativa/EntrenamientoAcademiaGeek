@@ -51,7 +51,9 @@ header {
 }
 .logo_secundario .heading {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 30px;
 }
 .logo_secundario .heading img {
