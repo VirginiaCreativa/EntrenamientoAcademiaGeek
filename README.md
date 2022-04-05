@@ -28,3 +28,6 @@
 ### 02. Estructuras-Secuenciales
 - [Tarea 1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/02-Estructuras-Secuenciales/Tarea_1/)
 - [Tarea 2](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/02-Estructuras-Secuenciales/Tarea_2/)
+
+### 03. Estructuras Condicionales
+- [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/03-Estructuras-Condicionales/Tarea_3/)
