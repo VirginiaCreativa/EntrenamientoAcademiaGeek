@@ -1,17 +1,15 @@
 let descuentoClave_1 = 10;
 let descuentoClave_2 = 20;
-let addArticulo;
-let addPrecio;
 
-const localArticulo = '.BoxComprarResult_Articulo';
-const localPrecio = '.BoxComprarResult_Precio';
-const localClave = 'input[name="form-radio"]';
-const buttonDescuento = '.btnDescuento';
-const showMarkerResult = '.BoxMarker_Result';
-
-let inputClave = document.querySelectorAll(localClave);
 let btnDescuento = document.querySelector('.btnDescuento');
-let showResult = document.querySelector(showMarkerResult);
+let showResult = document.querySelector('.BoxMarker_Result');
+let inputClave = document.querySelectorAll('input[name="form-radio"]');
+let inputArticulo = document.querySelector('#Input_Articulo');
+let inputPrecio = document.querySelector('#Input_Precio');
+let addArticulo = document.querySelector('.BoxComprarResult_Articulo');
+let addClave = document.querySelector('.BoxComprarResult_Clave');
+let addPrecio = document.querySelector('.BoxComprarResult_Precio');
+let addDescuento = document.querySelector('.BoxComprarResult_Descuento');
 
 btnDescuento.addEventListener('click', (ev) => {
   let selectedClave;
@@ -23,6 +21,7 @@ btnDescuento.addEventListener('click', (ev) => {
       break;
     }
   }
+  addClave.textContent = selectedClave === 'clave_1' ? 'Clave 1' : 'Clave 2';
   showResult.style.display = 'block';
 });
 
