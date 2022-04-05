@@ -111,4 +111,12 @@ header {
   padding: 20px;
   margin: 0 auto;
   border:4px solid $navy2;
+  .BoxComprarResult_Descuento {
+    background-color: $red;
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 6  px;
+    font-weight: 600 !important;
+  }
 }

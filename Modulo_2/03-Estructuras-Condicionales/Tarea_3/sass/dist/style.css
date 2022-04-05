@@ -91,3 +91,11 @@ header {
   margin: 0 auto;
   border: 4px solid #3e4a61;
 }
+.BoxMarker_Result .BoxComprarResult_Descuento {
+  background-color: #f35b25;
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 6 px;
+  font-weight: 600 !important;
+}
