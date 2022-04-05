@@ -91,7 +91,7 @@ header {
 }
 
 .BoxMarker_Forms {
-  margin-bottom: 60px;
+  margin-bottom: 0;
   .forms_check {
     display: flex;
     justify-content: center;
@@ -121,5 +121,8 @@ header {
     border-radius: 4px;
     padding: 2px 8px;
     font-weight: 600 !important;
+  }
+  .BoxComprarResult_Articulo, .BoxComprarResult_Clave {
+    text-transform: capitalize;
   }
 }
