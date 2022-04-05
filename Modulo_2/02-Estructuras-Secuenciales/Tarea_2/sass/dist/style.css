@@ -62,10 +62,10 @@ header {
   gap: 20px;
 }
 .conversion .conversion_form .conversion_form_input {
+  width: 150px;
   padding: 8px 10px;
   border: 1px solid #e2dfdf;
   border-radius: 4px;
-  width: 150px;
 }
 .conversion .conversion_result {
   text-align: center;
