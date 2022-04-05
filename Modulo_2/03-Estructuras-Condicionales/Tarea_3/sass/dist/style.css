@@ -86,6 +86,7 @@ header {
 }
 
 .BoxMarker_Result {
+  display: none;
   width: 40%;
   padding: 20px;
   margin: 0 auto;
