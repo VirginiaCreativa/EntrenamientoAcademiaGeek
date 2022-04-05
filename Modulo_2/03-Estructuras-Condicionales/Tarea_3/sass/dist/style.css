@@ -39,7 +39,7 @@ footer a {
 }
 
 .wrapper {
-  height: 60vh;
+  height: 80vh;
 }
 
 header {
@@ -68,16 +68,26 @@ header {
   border-radius: 10px;
 }
 
-.BoxCalculaComprar .forms_check {
+.BoxMarker_Forms {
+  margin-bottom: 60px;
+}
+.BoxMarker_Forms .forms_check {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
 }
-.BoxCalculaComprar .forms_input {
+.BoxMarker_Forms .forms_input {
   width: 35%;
 }
-.BoxCalculaComprar .forms_input button {
-  display: flex;
-  justify-content: center;
+.BoxMarker_Forms .forms_input button {
+  display: block;
+  margin: 0 auto;
+}
+
+.BoxMarker_Result {
+  width: 40%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 4px solid #3e4a61;
 }

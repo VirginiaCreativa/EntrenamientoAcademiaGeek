@@ -41,43 +41,77 @@
         </p>
       </div>
     </div>
-    <div class="BoxCalculaComprar">
+    <div class="BoxMarker">
       <div class="container box_body">
-        <div class="row  justify-content-center">
-          <div class="col-12">
-            <div class="forms_check">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="clave_1" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                  Clave 1
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="clave_2" id="flexCheckChecked" checked>
-                <label class="form-check-label" for="flexCheckChecked">
-                  Clave 2
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="forms_input">
+        <div class="BoxMarker_Forms">
+          <div class="row  justify-content-center">
             <div class="col-12">
-              <div class="mb-3">
-                <label class="form-label">Nombre del artículo</label>
-                <input type="text" class="form-control" id="Input_Articulo" placeholder="Escribe acá">
+              <div class="forms_check">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="clave_1" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Clave 1
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="clave_2" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Clave 2
+                  </label>
+                </div>
               </div>
             </div>
-            <div class="col-12">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Precio original del artículo</label>
-                <input type="number" class="form-control" id="Input_Precio" placeholder="Precio">
+            <div class="forms_input">
+              <div class="col-12">
+                <div class="mb-3">
+                  <label class="form-label">Nombre del artículo</label>
+                  <input type="text" class="form-control" id="Input_Articulo" placeholder="Escribe acá">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Precio original del artículo</label>
+                  <input type="number" class="form-control" id="Input_Precio" placeholder="Precio">
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Descuento</button>
               </div>
             </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Comprar</button>
-            </div>
-          </div>
 
+          </div>
+        </div>
+        <div class="BoxMarker_Result">
+          <div class="row">
+            <div class="col_12">
+              <div class="row">
+                <div class="col-6">
+                  <h6>Nombre de artículo</h6>
+                </div>
+                <div class="col-6">
+                  <p class="BoxComprarResult_Articulo">Artículo</p>
+                </div>
+                <div class="col-6">
+                  <h6>Clave de artículo</h6>
+                </div>
+                <div class="col-6">
+                  <p class="BoxComprarResult_Clave">Clave</p>
+                </div>
+                <div class="col-6">
+                  <h6>Precio original del artículo</h6>
+                </div>
+                <div class="col-6">
+                  <p class="BoxComprarResult_Precio">$ 0.000</p>
+                </div>
+                <div class="col-6">
+                  <h6>Precio con descuento</h6>
+                </div>
+                <div class="col-6">
+                  <p class="BoxComprarResult_Descuento">Descuento</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
