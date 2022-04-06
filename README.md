@@ -31,3 +31,6 @@
 
 ### 03. Estructuras Condicionales
 - [Tarea 3](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_2/03-Estructuras-Condicionales/Tarea_3/)
+
+# Módulo 3
+- [Tarea 1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_3/Tarea_1)
