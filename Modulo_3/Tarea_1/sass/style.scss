@@ -98,6 +98,18 @@ header {
 
 .BoxPropinas_Forms {
   margin-bottom: 60px;
+  .mb-3 {
+    position: relative;
+    .form-simbolo {
+      position: absolute;
+      left: 10px;
+      bottom: 9px;
+      color: $blue;
+    }
+    .form-control {
+      padding-left: 25px;
+    }
+  }
 
   .BoxPropinas_Forms_Input {
     width: 35%;
