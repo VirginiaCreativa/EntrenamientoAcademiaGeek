@@ -34,3 +34,4 @@
 
 # Módulo 3
 - [Tarea 1](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_3/Tarea_1)
+- [Tarea 2](https://virginiacreativa.github.io/EntrenamientoAcademiaGeek/Modulo_3/Tarea_2)
