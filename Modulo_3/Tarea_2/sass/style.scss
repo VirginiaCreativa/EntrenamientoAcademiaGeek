@@ -95,3 +95,16 @@ header {
   background-color: #fff;
   border-radius: 10px;
 }
+
+.BoxLogic_Forms {
+  .form-label {
+    margin-bottom: 0;
+    span {
+      background-color: $green;
+      color: #fff;
+      border-radius: 100%;
+      padding: 6px 14px;
+      margin-right: 10px;
+    }
+  }
+}
