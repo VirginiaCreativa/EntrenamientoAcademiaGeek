@@ -75,6 +75,9 @@ header {
   border-radius: 10px;
 }
 
+.BoxLogic_Forms {
+  margin-bottom: 40px;
+}
 .BoxLogic_Forms .form-label {
   margin-bottom: 0;
 }
@@ -84,4 +87,17 @@ header {
   border-radius: 100%;
   padding: 6px 14px;
   margin-right: 10px;
+}
+
+.BoxLogic_Cards .BoxLogic_Card_Item {
+  display: flex;
+  flex-direction: column;
+}
+.BoxLogic_Cards .BoxLogic_Card_Item .BoxLogic_Card_Item_Image {
+  height: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.BoxLogic_Cards .BoxLogic_Card_Item .BoxLogic_Card_Item_Image img {
+  height: 64px;
 }
