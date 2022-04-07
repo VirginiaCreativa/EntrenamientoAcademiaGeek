@@ -82,10 +82,10 @@ header {
   margin-bottom: 0;
 }
 .BoxLogic_Forms .form-label span {
-  background-color: #42b883;
-  color: #fff;
-  border-radius: 100%;
   padding: 6px 14px;
+  color: #fff;
+  background-color: #42b883;
+  border-radius: 100%;
   margin-right: 10px;
 }
 
@@ -99,5 +99,5 @@ header {
   margin-bottom: 20px;
 }
 .BoxLogic_Cards .BoxLogic_Card_Item .BoxLogic_Card_Item_Image img {
-  height: 64px;
+  height: 128px;
 }
