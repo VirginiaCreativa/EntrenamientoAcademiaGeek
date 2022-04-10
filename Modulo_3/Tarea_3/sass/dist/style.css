@@ -18,3 +18,22 @@ p,
 li {
   font-weight: 200 !important;
 }
+
+.LogoHarry {
+  font-family: "harry_pregular", serif;
+}
+
+#BG_FourHogwarts {
+  display: flex;
+}
+#BG_FourHogwarts [class*=BG_FourHogwarts_Box_] {
+  display: block;
+  height: 50%;
+  width: 50%;
+}
+#BG_FourHogwarts [class*=BG_FourHogwarts_Box_]:nth-child(1) {
+  background-color: #a6332e;
+}
+#BG_FourHogwarts [class*=BG_FourHogwarts_Box_]:nth-child(2) {
+  background-color: #efbc2f;
+}

@@ -10,7 +10,12 @@ $orange: #f16821;
 $gray1: #ecf0f1;
 $gray2: #969aa7;
 $gray3: #e2dfdf;
-$general: #393e46;
+$general: #333;
+$gryffindor: #a6332e;
+$hufflepuff: #efbc2f;
+$ravenclaw: #3c4e91;
+$slytherin: #366447;
+
 
 body {
   font-family: 'Poppins', serif;
@@ -30,4 +35,24 @@ h6 {
 p,
 li {
   font-weight: 200 !important;
+}
+
+.LogoHarry {
+    font-family: 'harry_pregular', serif;
+}
+
+#BG_FourHogwarts {
+  display: flex;
+  [class*="BG_FourHogwarts_Box_"] {
+    display: block;
+    height: 50%;
+    width: 50%;
+    &:nth-child(1) {
+      background-color: $gryffindor;
+    }
+     &:nth-child(2) {
+      background-color: $hufflepuff;
+    }
+  }
+
 }
