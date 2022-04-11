@@ -62,3 +62,14 @@ header .LogoHogwarts {
 .Box_Comenzar .col {
   height: 72vh;
 }
+
+.Box_Personajes .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Box_Personajes .col {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
