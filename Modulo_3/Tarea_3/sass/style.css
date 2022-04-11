@@ -18,10 +18,10 @@ li {
 }
 
 .BG_FourHogwarts {
-  z-index: -999;
   display: -ms-grid;
   display: grid;
   position: absolute;
+  z-index: -999;
   top: 0;
   left: 0;
   width: 100vw;
@@ -32,37 +32,42 @@ li {
   background-color: red;
 }
 
-.BG_FourHogwarts [class*="BG_FourHogwarts_Box_"] {
+.BG_FourHogwarts [class*='BG_FourHogwarts_Box_'] {
   height: 50vh;
 }
 
-.BG_FourHogwarts [class*="BG_FourHogwarts_Box_"]:nth-child(1) {
+.BG_FourHogwarts [class*='BG_FourHogwarts_Box_']:nth-child(1) {
   background-color: #a6332e;
 }
 
-.BG_FourHogwarts [class*="BG_FourHogwarts_Box_"]:nth-child(2) {
+.BG_FourHogwarts [class*='BG_FourHogwarts_Box_']:nth-child(2) {
   height: 50vh;
-  background-color: #044D0F;
+  background-color: #044d0f;
 }
 
-.BG_FourHogwarts [class*="BG_FourHogwarts_Box_"]:nth-child(3) {
+.BG_FourHogwarts [class*='BG_FourHogwarts_Box_']:nth-child(3) {
   height: 50vh;
   background-color: #efbc2f;
 }
 
-.BG_FourHogwarts [class*="BG_FourHogwarts_Box_"]:nth-child(4) {
+.BG_FourHogwarts [class*='BG_FourHogwarts_Box_']:nth-child(4) {
   height: 50vh;
   background-color: #004485;
 }
 
 header {
-  padding: 40px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 header .LogoHogwarts {
   color: #fff;
   font-family: 'harry_pregular', serif;
-  font-size: 4rem;
+  font-size: 6rem;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Box_Comenzar .col {
+  height: 72vh;
 }
 /*# sourceMappingURL=style.css.map */
