@@ -13,13 +13,12 @@ $gray3: #e2dfdf;
 $general: #333;
 $gryffindor: #a6332e;
 $hufflepuff: #efbc2f;
-$ravenclaw: #3c4e91;
-$slytherin: #366447;
+$ravenclaw: #004485;
+$slytherin: #044D0F;
 
 
 body {
   font-family: 'Poppins', serif;
-  background-color: $gray1;
 }
 
 h1,
@@ -28,8 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $navy;
-  text-shadow: 1px 1px 0px rgba($color: #fff, $alpha: 0.3);
+  color: $general;
 }
 
 p,
@@ -37,22 +35,47 @@ li {
   font-weight: 200 !important;
 }
 
-.LogoHarry {
-    font-family: 'harry_pregular', serif;
-}
-
-#BG_FourHogwarts {
-  display: flex;
+.BG_FourHogwarts {
+  z-index: -999;
+  display: grid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: red;
   [class*="BG_FourHogwarts_Box_"] {
-    display: block;
-    height: 50%;
-    width: 50%;
+    height: 50vh;
     &:nth-child(1) {
       background-color: $gryffindor;
     }
-     &:nth-child(2) {
+    &:nth-child(2) {
+      height: 50vh;
+      background-color: $slytherin;
+
+    }
+    &:nth-child(3) {
+      height: 50vh;
       background-color: $hufflepuff;
+
+    }
+     &:nth-child(4) {
+      height: 50vh;
+      background-color: $ravenclaw;
+
     }
   }
 
+}
+
+header {
+  padding:40px 0;
+  text-align: center;
+  .LogoHogwarts {
+     color: #fff;
+    font-family: 'harry_pregular', serif;
+    font-size: 4rem;
+  }
 }
